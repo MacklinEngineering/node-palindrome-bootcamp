@@ -1,3 +1,5 @@
+//*Collaborators: Finesse, Asiah, Vanessa, Zahmir, Nyah, Joshua, Eric  */
+
 const http = require('http');
 const fs = require('fs')
 const url = require('url');
