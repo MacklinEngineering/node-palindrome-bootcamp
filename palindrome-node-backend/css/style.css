@@ -1,3 +1,29 @@
-h1{
-  color: pink;
+/* Background gradient from Manuel Pinto at https://codepen.io/P1N2O/pen/xxbjYqx */
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
 }
+
+h1{
+	color: white;
+}
+
+button{
+	background-color: transparent;
+	margin-top: 20px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
